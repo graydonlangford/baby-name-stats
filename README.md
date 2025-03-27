@@ -28,3 +28,13 @@ You'll just need a python 3.9 instance, ideally in a venv, with pandas, glob, an
 The output file baby_name_stats.csv (or the truncated version included) shows the all the baby names, and how many of those babies were born, died, are still living, and their average age. 
 
 You can play with this however you like, but I made a <a href="https://public.tableau.com/views/BabyNamesPerYear/BabyNameStats?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Tableau dashboard</a> so you don't have to!
+
+![image](https://github.com/user-attachments/assets/f00b1ed4-10da-4314-a0f8-ff7641eba4c0)
+
+## Future ideas:
+
+* Add forecasting models. It seems like most names follow similar popularity patterns. We can probably build a model to forecast future name popularity.
+* Investigate why some names are sex-neutral, or swap popularity for  males and females over time.
+* Categorize names by similarity. "Jon" and "John" are nearly the same name. Can we combine them and view their statistics together?
+* I built the dashboard using a very strong "less-is-more" appraoch. I decided I would be done only when there was nothing left I could take away. Maybe in the future, I could add more detailed analyses to a new tab on the dashboard; view living, died, and avg age stats over time.
+* Find better data. Is there a better data source for baby names? For deaths? What about for immigrants, or even global populations?
