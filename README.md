@@ -5,7 +5,7 @@ This is a personal data science project which uses simple SSA data to the names 
 It is an attempt to make a more-complete, easier to use, and more accurate version of the tools on <a href="https://www.ssa.gov/oact/babynames/index.html">this page</a>
 
 ## Input Data
-Data was collected from data.gov, and is included in this repo in .zip files:
+Data was collected from data.gov, and is included in this repo in .7z files:
 
 * Baby Names from Social Security Card Applications - National Data: <a href="https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-data">Data.gov</a>
 * Actuarial Death Tables: <a href="https://www.ssa.gov/oact/HistEst/Death/2014/DeathProbabilities2014.html">SSA.gov</a> (This can also be found on data.gov, but not in a single location)
