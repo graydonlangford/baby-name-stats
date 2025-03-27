@@ -1,6 +1,6 @@
 # Baby Name Statistics
 
-This is a personal data science project which uses simple SSA data to the names given to newly born babies in the U.S. over the last 140 years. 
+This is a personal data science project which uses simple SSA data to count the names given to newly born babies in the U.S. over the last 140 years. 
 
 It is an attempt to make a more-complete, easier to use, and more accurate version of the tools on <a href="https://www.ssa.gov/oact/babynames/index.html">this page</a>
 
@@ -17,7 +17,14 @@ Pandas does the heavy lifting in this project. The birth data is easily used as-
 * The SSA does not publish the names of babies born if there were less than 5 babies born with that names. Considering the long tail on baby name distributions, this is a lot of babies.
 * This is based on SSA birth certificate applications. There are, in fact, a lot of people in this country who don't have a U.S. birth certificate for lots of reasons.
 * The actuarial death tables are estimates, not based on real data. Therefore anything using those estimates cannot be considered trustworthy.
+* Because we don't have data before 1880, the output doesn't really approach any accuracy until 70-90 years afterwards, circa 1950-70.
 
 ## Running at home
 
 You'll just need a python 3.9 instance, ideally in a venv, with pandas, glob, and re. The jupyter notebook files will run in VSCode with the Jupyter extension.
+
+## End result
+
+The output file baby_name_stats.csv (or the truncated version included) shows the all the baby names, and how many of those babies were born, died, are still living, and their average age. 
+
+You can play with this however you like, but I made a <a href="https://public.tableau.com/views/BabyNamesPerYear/BabyNameStats?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Tableau dashboard</a> so you don't have to!
